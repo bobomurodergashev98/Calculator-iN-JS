@@ -1,0 +1,41 @@
+.container {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  text-align: center;
+  width: 80vw;
+  background-color: cadetblue;
+  height: 80vh;
+  margin: auto auto;
+  padding-top: 60px;
+}
+.table {
+  margin-left: 400px;
+  border-collapse: collapse;
+  background-color: rgb(8, 20, 43);
+  border-radius: 3px;
+}
+
+.container #table-input {
+  width: 285px;
+  height: 70px;
+  outline: none;
+  border: none;
+  font-size: 30px;
+  font-weight: 700;
+}
+.table .table-row td {
+  border: 0, 8px solid black;
+  width: 71px;
+  color: white;
+  height: 70px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 600;
+  transition: all 0.1s ease-in;
+  border-radius: 5px;
+}
+.table .table-row td:hover {
+  /* transform: ; */
+  background-color: tomato;
+}
